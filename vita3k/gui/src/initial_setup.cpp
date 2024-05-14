@@ -40,6 +40,7 @@ static InitialSetup setup = SELECT_LANGUAGE;
 static std::string title_str;
 
 void get_firmware_file(EmuEnvState &emuenv) {
+    
     if (emuenv.cfg.sys_lang == SCE_SYSTEM_PARAM_LANG_JAPANESE)
         open_path("https://www.playstation.com/ja-jp/support/hardware/psvita/system-software");
     else if (emuenv.cfg.sys_lang == SCE_SYSTEM_PARAM_LANG_ENGLISH_US)

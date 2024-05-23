@@ -6,6 +6,7 @@ add_library(
 	src/app_init.cpp
 	src/app.cpp
 	src/discord.cpp
+ 
 )
 
 target_include_directories(app PUBLIC include)
